@@ -29,7 +29,7 @@ The dataset folder consists of the following files:
 
 
 ### Process
-# Feature engineering
+#### Feature engineering
 We started the challenge with exploratory data analysis (EDA) in which we discovered the data types and
 the amount of missing values. Missing values in the author column were imputed with the corresponding
 values of the editor column as we found out that in some cases the editors could be the authors. All other
@@ -50,7 +50,7 @@ lemmatization. Thus, we used lemmatization with the spaCy language model instead
 we tried different n_grams to see whether different combinations of words conveyed specific meanings and
 n_features to control the dimensionality. N_grams of (1,3) and n_features of 2^23 were most successful in
 terms of MAE.
-# Learning algorithms
+#### Learning algorithms
 Ridge Regression (MAE 3.6), Lasso Regression (MAE 4.8), Random Forest Regressor (MAE 3.1), Decision
 Tree Classifier (MAE 2.9) and Regressor (MAE 3.0), SGD Classifier (MAE 2.7), Gradient Boosting
 Regression (MAE 3.6), and a Linear Support Vector Classifier (LSVC, MAE 2.4) were all used to fit the
@@ -59,13 +59,13 @@ MAE is more typical for a regression problem, we realized that the classifier mo
 terms of MAE compared to the regression models. Hence, we continued with the best-performing model,
 the LSVC which has the advantage of being robust to the high-dimensional feature space that we created
 with feature engineering.
-# Hyperparameter tuning
+#### Hyperparameter tuning
 The baseline MAE for our model was 2.416. We used GridSearch with cross-validation to tune the
 hyperparameters of the LSVC on the training set. The scoring parameter was changed to
 ‘neg_mean_absolute_error’ to minimize the MAE. Different values for the range of the regularization
 parameter were tried ([0.001, 0.01, 0.1, 1.0, 10.0, 20.0]), 1.0 turned out to be the best. After tuning, the
 MAE remained the same (2.416).
-# Performance of the model
+#### Performance of the model
 Once we decided to use the LSVC, we improved the performance and featuring engineering systematically
 after each submission. The first submission consisted of the imputation of missing values and text cleaning
 by removing stop words, punctuation, text between brackets, and conversion to lowercase (MAE 2.8). In
