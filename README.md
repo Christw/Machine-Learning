@@ -95,4 +95,5 @@ Sought out solutions on the Sklearn website, Medium, and Stackoverflow for featu
 
 ### Result
 
-<img width="1440" alt="截圖 2022-08-04 下午9 15 18" src="[https://user-images.githubusercontent.com/67684645/182856141-d2316182-4f0f-4486-b6d2-c830510b29e7.png](https://github.com/Christw/Machine-Learning/blob/main/third_prize.png)]
+<img width="1440" alt="third prize" src="[Machine Learning Repository](https://github.com/Christw/Machine-Learning/blob/main/third_prize.png)">
+
