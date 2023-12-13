@@ -95,5 +95,5 @@ Sought out solutions on the Sklearn website, Medium, and Stackoverflow for featu
 
 ### Result
 
-<img width="1440" alt="third prize" src="[Machine Learning Repository](https://github.com/Christw/Machine-Learning/blob/main/third_prize.png?raw=true)">
+<img width="1440" alt="third prize" src="[Machine Learning Repository](https://i.imgur.com/ZKxGM1u.png)">
 
