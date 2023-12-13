@@ -79,9 +79,9 @@ in the first part of this report (Feature engineering).
 ### My contribution
 1. Processed the data
     - Created functions (connect_name, remove_list, remove punctuation, remove unnecessary words) and applied them to the features
-      - Imputed the missing data of the author with editors and other features with an empty text.
-      - Implemented text and categorical data encoding: Text: TfidfVectorizer with n_grams, HashingVectorizer with n_grams and n_features, Lemmatize the tokens; Categorical: OneHotEncoder
-      - Tried PCA and SelectFromModel to select the most important features
+    - Imputed the missing data of the author with editors and other features with an empty text.
+    - Implemented text and categorical data encoding: Text: TfidfVectorizer with n_grams, HashingVectorizer with n_grams and n_features, Lemmatize the tokens; Categorical: OneHotEncoder
+    - - Tried PCA and SelectFromModel to select the most important features
 2. Experimented with different models (Regressor: XGB, Ridge, Lasso, SVM, Linear Regression, GradientBoostingRegressor, SGD; Classifier: SGD, Perceptron, PassiveAggressiveClassifier, LogisticRegression, RidgeClassifier, LinearSVC, MLPClassifier, RandomForestClassifier) and found the best model
 3. Proposed two approaches for hypermeter-tuning and adopted one in the end: Three-way split and GridSearch with cross-validation; provided code with others to reuse it
 4. Produced 4 submission files without any errors and optimized successfully for three times
