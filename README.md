@@ -77,7 +77,7 @@ publisher column with the mode instead of empty text. This was not successful an
 in the first part of this report (Feature engineering).
 
 ### My contribution
-# 1. Processed the data
+1. Processed the data
     - Created functions (connect_name, remove_list, remove punctuation, remove unnecessary words) and applied them to the features
     - Imputed the missing data of the author with editors and other features with an empty text.
     - Implemented text and categorical data encoding: Text: TfidfVectorizer with n_grams, HashingVectorizer with n_grams and n_features, Lemmatize the tokens; Categorical: OneHotEncoder
@@ -94,6 +94,5 @@ in the first part of this report (Feature engineering).
 7. Sought out solutions on the Sklearn website, Medium, and Stackoverflow for feature engineering and hyperparameter tuning in Introduction To Machine Learning with Python (OREILLY)
 
 ### Result
-
 <img width="1440" alt="third prize" src="https://i.imgur.com/ZKxGM1u.png">
 
