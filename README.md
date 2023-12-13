@@ -76,7 +76,7 @@ publisher column with the mode instead of empty text. This was not successful an
 2.41. Thus, the best model was model 3 with an MAE 2.4067 and the final feature engineering as described
 in the first part of this report (Feature engineering).
 
-## My contribution
+### My contribution
 1. Processed the data
     - Created functions (connect_name, remove_list, remove punctuation, remove unnecessary words) and applied them to the features
     - Imputed the missing data of the author with editors and other features with an empty text.
@@ -93,6 +93,6 @@ in the first part of this report (Feature engineering).
 6. Provided extra comments and fine-tuned the report
 7. Sought out solutions on the Sklearn website, Medium, and Stackoverflow for feature engineering and hyperparameter tuning in Introduction To Machine Learning with Python (OREILLY)
 
-## Result
+### Result
 <img width="1440" alt="third prize" src="https://i.imgur.com/ZKxGM1u.png">
 
