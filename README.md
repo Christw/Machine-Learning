@@ -77,21 +77,21 @@ publisher column with the mode instead of empty text. This was not successful an
 in the first part of this report (Feature engineering).
 
 ### My contribution
-Processed the data
-Created functions (connect_name, remove_list, remove punctuation, remove unnecessary words) and applied them to the features
-Imputed the missing data of the author with editors and other features with an empty text.
-Implemented text and categorical data encoding: Text: TfidfVectorizer with n_grams, HashingVectorizer with n_grams and n_features, Lemmatize the tokens; Categorical: OneHotEncoder
-Tried PCA and SelectFromModel to select the most important features
-Experimented with different models (Regressor: XGB, Ridge, Lasso, SVM, Linear Regression, GradientBoostingRegressor, SGD; Classifier: SGD, Perceptron, PassiveAggressiveClassifier, LogisticRegression, RidgeClassifier, LinearSVC, MLPClassifier, RandomForestClassifier) and found the best model
-Proposed two approaches for hypermeter-tuning and adopted one in the end: Three-way split and GridSearch with cross-validation; provided code with others to reuse it
-Produced 4 submission files without any errors and optimized successfully for three times
-First submission with MAE 2.80 (Found the best model LinearSVC)
-Second submission with MAE 2.43 (Used lemmatize, ngram, and connected the first name with the last name in the author column for feature engineering)
-Third submission with MAE 2.40 (Imputed the missing data of author with editor, increased the capacity of n_features in HashingVectorizer)
-Fourth submission with MAE 2.41 (Impute null values in publish with mode -> it was imputed with an empty text at first)
-Established and organized the final py file to submit
-Provided extra comments and fine-tuned the report
-Sought out solutions on the Sklearn website, Medium, and Stackoverflow for feature engineering and hyperparameter tuning in Introduction To Machine Learning with Python (OREILLY)
+1. Processed the data
+  - Created functions (connect_name, remove_list, remove punctuation, remove unnecessary words) and applied them to the features
+  - Imputed the missing data of the author with editors and other features with an empty text.
+  - Implemented text and categorical data encoding: Text: TfidfVectorizer with n_grams, HashingVectorizer with n_grams and n_features, Lemmatize the tokens; Categorical: OneHotEncoder
+  - Tried PCA and SelectFromModel to select the most important features
+2. Experimented with different models (Regressor: XGB, Ridge, Lasso, SVM, Linear Regression, GradientBoostingRegressor, SGD; Classifier: SGD, Perceptron, PassiveAggressiveClassifier, LogisticRegression, RidgeClassifier, LinearSVC, MLPClassifier, RandomForestClassifier) and found the best model
+3. Proposed two approaches for hypermeter-tuning and adopted one in the end: Three-way split and GridSearch with cross-validation; provided code with others to reuse it
+4. Produced 4 submission files without any errors and optimized successfully for three times
+  - First submission with MAE 2.80 (Found the best model LinearSVC)
+  - Second submission with MAE 2.43 (Used lemmatize, ngram, and connected the first name with the last name in the author column for feature engineering)
+  - Third submission with MAE 2.40 (Imputed the missing data of author with editor, increased the capacity of n_features in HashingVectorizer)
+  - Fourth submission with MAE 2.41 (Impute null values in publish with mode -> it was imputed with an empty text at first)
+5. Established and organized the final py file to submit
+6. Provided extra comments and fine-tuned the report
+7. Sought out solutions on the Sklearn website, Medium, and Stackoverflow for feature engineering and hyperparameter tuning in Introduction To Machine Learning with Python (OREILLY)
 
 ### Result
 
