@@ -78,7 +78,7 @@ in the first part of this report (Feature engineering).
 
 ### My contribution
 1. Processed the data
-  - Created functions (connect_name, remove_list, remove punctuation, remove unnecessary words) and applied them to the features
+    - Created functions (connect_name, remove_list, remove punctuation, remove unnecessary words) and applied them to the features
   - Imputed the missing data of the author with editors and other features with an empty text.
   - Implemented text and categorical data encoding: Text: TfidfVectorizer with n_grams, HashingVectorizer with n_grams and n_features, Lemmatize the tokens; Categorical: OneHotEncoder
   - Tried PCA and SelectFromModel to select the most important features
