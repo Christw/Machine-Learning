@@ -95,5 +95,5 @@ Sought out solutions on the Sklearn website, Medium, and Stackoverflow for featu
 
 ### Result
 
-<img width="1440" alt="third prize" src="[https://i.imgur.com/ZKxGM1u.png](https://i.imgur.com/ZKxGM1u.png)">
+<img width="1440" alt="third prize" src="https://i.imgur.com/ZKxGM1u.png">
 
